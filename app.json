@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Washaaa",
+    "slug": "Washaaa",
+    "version": "1.0.0",
+    "image": "./assets/group.png",
+    "orientation": "portrait",
+    
+    "userInterfaceStyle": "light",
+    
+    "group": {
+      "image": "./assets/group.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.Washaaa"
+     
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

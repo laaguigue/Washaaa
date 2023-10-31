@@ -1,0 +1,344 @@
+.home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home-page .div {
+    background-color: #ffffff;
+    height: 800px;
+    position: relative;
+    width: 360px;
+  }
+  
+  .home-page .overlap {
+    background-color: #caf1ff;
+    border-radius: 98px;
+    height: 196px;
+    left: 77px;
+    position: absolute;
+    top: 547px;
+    width: 196px;
+  }
+  
+  .home-page .ellipse {
+    background-color: #b3dded;
+    border-radius: 88px;
+    height: 176px;
+    left: 10px;
+    position: absolute;
+    top: 10px;
+    width: 176px;
+  }
+  
+  .home-page .ellipse-2 {
+    background-color: #1691fc;
+    border-radius: 78px;
+    height: 156px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 156px;
+  }
+  
+  .home-page .group {
+    height: 42px;
+    left: 98px;
+    position: absolute;
+    top: 42px;
+    width: 27px;
+  }
+  
+  .home-page .img {
+    height: 52px;
+    left: 64px;
+    position: absolute;
+    top: 89px;
+    width: 69px;
+  }
+  
+  .home-page .group-2 {
+    height: 26px;
+    left: 16px;
+    position: absolute;
+    top: 7px;
+    width: 330px;
+  }
+  
+  .home-page .battery {
+    height: 11px;
+    left: 306px;
+    position: absolute;
+    top: 7px;
+    width: 23px;
+  }
+  
+  .home-page .wifi {
+    height: 10px;
+    left: 286px;
+    position: absolute;
+    top: 8px;
+    width: 14px;
+  }
+  
+  .home-page .icon-mobile-signal {
+    height: 10px;
+    left: 264px;
+    position: absolute;
+    top: 8px;
+    width: 15px;
+  }
+  
+  .home-page .text-wrapper {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 25.1px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+  }
+  
+  .home-page .vector {
+    height: 21px;
+    left: 315px;
+    position: absolute;
+    top: 73px;
+    width: 16px;
+  }
+  
+  .home-page .text-wrapper-2 {
+    color: #050138;
+    font-family: "Work Sans", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 24px;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 166px;
+    white-space: nowrap;
+  }
+  
+  .home-page .text-wrapper-3 {
+    color: #050138;
+    font-family: "Work Sans", Helvetica;
+    font-size: 14px;
+    font-weight: 500;
+    left: 81px;
+    letter-spacing: 0.1px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 73px;
+    white-space: nowrap;
+  }
+  
+  .home-page .element-dhs {
+    color: #050138;
+    font-family: "Work Sans", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 24px;
+    letter-spacing: 0;
+    line-height: 24.7px;
+    position: absolute;
+    text-align: center;
+    top: 138px;
+    white-space: nowrap;
+  }
+  
+  .home-page .span {
+    font-weight: 600;
+  }
+  
+  .home-page .text-wrapper-4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.7px;
+  }
+  
+  .home-page .frame {
+    align-items: center;
+    background-color: #1691fc;
+    border: 2px solid;
+    border-radius: 17px;
+    display: flex;
+    gap: 10px;
+    height: 46px;
+    justify-content: center;
+    left: 287px;
+    padding: 23px 45px;
+    position: absolute;
+    top: 138px;
+    width: 47px;
+  }
+  
+  .home-page .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.11px;
+    line-height: normal;
+    margin-bottom: -7.5px;
+    margin-left: -26px;
+    margin-right: -26px;
+    margin-top: -11.5px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .home-page .ellipse-3 {
+    height: 48px;
+    left: 25px;
+    position: absolute;
+    top: 59px;
+    width: 48px;
+  }
+  
+  .home-page .overlap-group {
+    background-color: #1691fc;
+    border-radius: 8px;
+    height: 120px;
+    left: 25px;
+    position: absolute;
+    top: 216px;
+    width: 136px;
+  }
+  
+  .home-page .group-3 {
+    height: 38px;
+    left: 39px;
+    position: absolute;
+    top: 34px;
+    width: 51px;
+  }
+  
+  .home-page .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Work Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 18px;
+    letter-spacing: 0.11px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 85px;
+    white-space: nowrap;
+  }
+  
+  .home-page .overlap-2 {
+    background-color: #f5f5f8;
+    border-radius: 8px;
+    height: 120px;
+    left: 193px;
+    position: absolute;
+    top: 216px;
+    width: 136px;
+  }
+  
+  .home-page .text-wrapper-7 {
+    color: #aeaeae;
+    font-family: "Work Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 32px;
+    letter-spacing: 0.11px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 85px;
+    white-space: nowrap;
+  }
+  
+  .home-page .vector-2 {
+    height: 40px;
+    left: 44px;
+    position: absolute;
+    top: 32px;
+    width: 40px;
+  }
+  
+  .home-page .overlap-3 {
+    background-color: #f5f5f8;
+    border-radius: 8px;
+    height: 120px;
+    left: 25px;
+    position: absolute;
+    top: 368px;
+    width: 136px;
+  }
+  
+  .home-page .text-wrapper-8 {
+    color: #aeaeae;
+    font-family: "Work Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 40px;
+    letter-spacing: 0.11px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 86px;
+    white-space: nowrap;
+  }
+  
+  .home-page .vector-3 {
+    height: 40px;
+    left: 46px;
+    position: absolute;
+    top: 32px;
+    width: 40px;
+  }
+  
+  .home-page .overlap-group-2 {
+    background-color: #f5f5f8;
+    border-radius: 8px;
+    height: 120px;
+    left: 193px;
+    position: absolute;
+    top: 368px;
+    width: 136px;
+  }
+  
+  .home-page .text-wrapper-9 {
+    color: #aeaeae;
+    font-family: "Work Sans", Helvetica;
+    font-size: 16px;
+    font-weight: 500;
+    left: 46px;
+    letter-spacing: 0.11px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    white-space: nowrap;
+  }
+  
+  .home-page .script-text {
+    height: 48px !important;
+    left: 40px !important;
+    position: absolute !important;
+    top: 32px !important;
+    width: 48px !important;
+  }
+  
+  .home-page .message {
+    height: 24px;
+    left: 275px;
+    position: absolute;
+    top: 71px;
+    width: 24px;
+  }
+  
