@@ -2,11 +2,10 @@ import { View, Text, Image , TextInput, TouchableOpacity } from 'react-native'
 import React, { useState } from 'react'
 import { SafeAreaView } from "react-native-safe-area-context";
 import COLORS from '../constants/colors';
-import { Ionicons } from "@expo/vector-icons";
 import Checkbox from "expo-checkbox"
 import Button from '../components/Botton';
 import { useNavigation } from '@react-navigation/native';
-
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 
 const Login = () => {
@@ -45,25 +44,6 @@ const Login = () => {
                         marginVertical: 8
                     }}>Email address</Text>
 
-                    <View style={{
-                        width: "100%",
-                        height: 48,
-                        borderColor: COLORS.black,
-                        borderWidth: 1,
-                        borderRadius: 8,
-                        alignItems: "center",
-                        justifyContent: "center",
-                        paddingLeft: 22,
-                        
-                    }}>
-                        <TextInput
-                            placeholder='Enter your email address'
-                            placeholderTextColor={COLORS.black}
-                            keyboardType='email-address'
-                            style={{
-                                width: "100%"
-                            }}
-                        />
                     </View>
                 </View>                              
 
@@ -85,7 +65,7 @@ const Login = () => {
                         paddingLeft: 22
                     }}>
                         <TextInput
-                            placeholder='Enter your password'
+                            placeholder='Enter your code '
                             placeholderTextColor={COLORS.black}
                             secureTextEntry={isPasswordShown}
                             style={{
@@ -93,22 +73,6 @@ const Login = () => {
                             }}
                         />
 
-                        <TouchableOpacity
-                            onPress={() => setIsPasswordShown(!isPasswordShown)}
-                            style={{
-                                position: "absolute",
-                                right: 12
-                            }}
-                        >
-                            {
-                                isPasswordShown == true ? (
-                                    <Ionicons name="eye-off" size={24} color={COLORS.black} />
-                                ) : (
-                                    <Ionicons name="eye" size={24} color={COLORS.black} />
-                                )
-                            }
-
-                        </TouchableOpacity>
                     </View>
                 </View>
 
@@ -155,9 +119,9 @@ const Login = () => {
                   
                 </View>
                 </View>
-            </View>
-        </SafeAreaView>
+           </SafeAreaView>
+      
     )
 }
 
-export default Login
+export default Login;

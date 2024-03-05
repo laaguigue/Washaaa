@@ -11,8 +11,6 @@ export default function LoadingScreen() {
     const timeout = setTimeout(() => {
       navigation.navigate('LaunchScreen'); // Navigate to the LaunchScreen
     }, 3000);
-
-    
     return () => clearTimeout(timeout);
   }, []);                                           
 
@@ -22,8 +20,6 @@ export default function LoadingScreen() {
         source={require("../assets/image/logo.png")} 
         style={styles.logo}
         resizeMode="contain"/>
-
-        
       <ActivityIndicator size={40} color="white" speed={0.9} style={styles.spinner} />
     </View>
   );

@@ -14,7 +14,6 @@ const Button = (props) => {
             style={{
                 ...styles.button,
                 ...{ backgroundColor: bgColor },
-                ...props.style
             }}
             onPress={props.onPress}
         >
